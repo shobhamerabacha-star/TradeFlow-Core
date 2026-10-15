@@ -5,8 +5,10 @@ members = [
     "contracts/lending_pool",
     "contracts/tradeflow",
     "contracts/amm_pool",
-    "contracts/amm_factory"
+    "contracts/amm_factory",
+    "contracts/governor"
 ]
+
 
 [profile.release]
 opt-level = "z"
